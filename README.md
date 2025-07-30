@@ -8,9 +8,9 @@ info: rtl8188fu support added to rtl8xxxu module of Linux kernel with version 6.
 
 `sudo apt-get install build-essential git dkms linux-headers-$(uname -r)`
 
-`git clone https://github.com/kelebek333/rtl8188fu`
+`git clone https://github.com/pavank-v/wifi-driver/`
 
-`sudo dkms install ./rtl8188fu`
+`sudo dkms install ./wifi-driver`
 
-`sudo cp ./rtl8188fu/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/`
+`sudo cp ./wifi-driver/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/`
 
